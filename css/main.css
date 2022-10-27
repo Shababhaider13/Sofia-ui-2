@@ -3113,6 +3113,22 @@ input.num-product::-webkit-inner-spin-button {
 }
 
 /*---------------------------------------------*/
+
+.hov-btn4:hover {
+  border-color: #0a58ca;
+  background-color: #0a58ca;
+  color: #fff;
+}
+
+.hov-btn4 a {
+  color: #888;
+}
+
+.hov-btn4:hover a {
+  color: #fff;
+}
+
+/*---------------------------------------------*/
 .hov-tag1:hover {
   color: #717fe0;
   border-color: #717fe0;

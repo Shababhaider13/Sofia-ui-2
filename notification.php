@@ -34,7 +34,7 @@
 
     <!-- content start -->
     <a href="rental_details.php" style="text-decoration: none;color: black;">
-        <div class="notify" style="background-color:#dfdfdf ;">
+        <div class="notify" style="background-color:#f1f1f1 ;">
             <div class="notifyimg"></div>
             <div class="notifypara1">
             <div class="notifypara2">

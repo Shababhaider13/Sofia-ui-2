@@ -34,6 +34,114 @@
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 <!--===============================================================================================-->
+
+<style>
+	* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #e3f2fd;
+}
+
+.select-menu {
+  max-width: 100%;
+}
+.select-menu .select-btn {
+  display: flex;
+  height: 45px;
+  background: #fff;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 8px;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-between;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.select-menu .options {
+  position: absolute;
+  width: 80%;
+  overflow-y: auto;
+  max-height: 295px;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  animation-name: fadeInDown;
+  -webkit-animation-name: fadeInDown;
+  animation-duration: 0.35s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 0.35s;
+  -webkit-animation-fill-mode: both;
+}
+.select-menu .options .option {
+  display: flex;
+  height: 55px;
+  cursor: pointer;
+  padding: 0 16px;
+  border-radius: 8px;
+  align-items: center;
+  background: #fff;
+}
+.select-menu .options .option:hover {
+  background: #f2f2f2;
+}
+.select-menu .options .option i {
+  font-size: 25px;
+  margin-right: 12px;
+}
+.select-menu .options .option .option-text {
+  font-size: 18px;
+  color: #333;
+}
+
+.select-btn i {
+  font-size: 25px;
+  transition: 0.3s;
+}
+
+.select-menu.active .select-btn i {
+  transform: rotate(-180deg);
+}
+.select-menu.active .options {
+  display: block;
+  opacity: 0;
+  z-index: 10;
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
+  animation-duration: 0.4s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 0.4s;
+  -webkit-animation-fill-mode: both;
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: translate3d(0, 30px, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+@keyframes fadeInDown {
+  from {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+  to {
+    transform: translate3d(0, 20px, 0);
+    opacity: 0;
+  }
+}
+</style>
+
 </head>
 <body class="animsition">
 
@@ -341,15 +449,7 @@
 					</button>
 
 					<button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".bag">
-						Bag
-					</button>
-
-					<button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".shoes">
-						Shoes
-					</button>
-
-					<button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".watches">
-						Watches
+						Kids
 					</button>
 				</div>
 
@@ -416,47 +516,42 @@
 							<div class="mtext-102 cl2 p-b-15">
 								Color
 							</div>
+							<div class="select-menu">
+  <div class="select-btn">
+    <span class="sBtn-text">Select Color</span>
+    <i class="fa fa-angle-down"></i>
+  </div>
 
-							<ul>
-								<li class="p-b-6">
-									<span class="fs-15 lh-12 m-r-6" style="color: #222;">
-										<i class="zmdi zmdi-circle"></i>
-									</span>
+  <ul class="options">
+    <li class="option">
+      <i class="zmdi zmdi-circle" style="color: #222;"></i>
+      <span class="option-text">Black</span>
+    </li>
+    <li class="option">
+      <i class="zmdi zmdi-circle" style="color: #4272d7;"></i>
+      <span class="option-text">Blue</span>
+    </li>
+    <li class="option">
+      <i class="zmdi zmdi-circle" style="color: #b3b3b3;"></i>
+      <span class="option-text">Gry</span>
+    </li>
+    <li class="option">
+      <i class="zmdi zmdi-circle" style="color: #00ad5f;"></i>
+      <span class="option-text">Green</span>
+    </li>
+	<li class="option">
+      <i class="zmdi zmdi-circle" style="color: #fa4251;"></i>
+      <span class="option-text">Red</span>
+    </li>
+	<li class="option">
+      <i class="zmdi zmdi-circle" style="color: #fff;"></i>
+      <span class="option-text">White</span>
+    </li>
+  </ul>
+</div>
 
-									<a href="#" class="filter-link stext-106 trans-04">
-										Black
-									</a>
-								</li>
+							<!-- 
 
-								<li class="p-b-6">
-									<span class="fs-15 lh-12 m-r-6" style="color: #4272d7;">
-										<i class="zmdi zmdi-circle"></i>
-									</span>
-
-									<a href="#" class="filter-link stext-106 trans-04 filter-link-active">
-										Blue
-									</a>
-								</li>
-
-								<li class="p-b-6">
-									<span class="fs-15 lh-12 m-r-6" style="color: #b3b3b3;">
-										<i class="zmdi zmdi-circle"></i>
-									</span>
-
-									<a href="#" class="filter-link stext-106 trans-04">
-										Grey
-									</a>
-								</li>
-
-								<li class="p-b-6">
-									<span class="fs-15 lh-12 m-r-6" style="color: #00ad5f;">
-										<i class="zmdi zmdi-circle"></i>
-									</span>
-
-									<a href="#" class="filter-link stext-106 trans-04">
-										Green
-									</a>
-								</li>
 
 								<li class="p-b-6">
 									<span class="fs-15 lh-12 m-r-6" style="color: #fa4251;">
@@ -464,12 +559,12 @@
 									</span>
 
 									<a href="#" class="filter-link stext-106 trans-04">
-										Red
+										
 									</a>
 								</li>
 
 								<li class="p-b-6">
-									<span class="fs-15 lh-12 m-r-6" style="color: #aaa;">
+									<span class="fs-15 lh-12 m-r-6" style="color: ;">
 										<i class="zmdi zmdi-circle-o"></i>
 									</span>
 
@@ -477,7 +572,7 @@
 										White
 									</a>
 								</li>
-							</ul>
+							</ul> -->
 						</div>
 
 						<div class="filter-col4 p-b-27">
@@ -1299,6 +1394,25 @@
 	</script>
 
 
+<script>
+	const optionMenu = document.querySelector(".select-menu"),
+  selectBtn = optionMenu.querySelector(".select-btn"),
+  options = optionMenu.querySelectorAll(".option"),
+  sBtn_text = optionMenu.querySelector(".sBtn-text");
+
+selectBtn.addEventListener("click", () =>
+  optionMenu.classList.toggle("active")
+);
+
+options.forEach((option) => {
+  option.addEventListener("click", () => {
+    let selectedOption = option.querySelector(".option-text").innerText;
+    sBtn_text.innerText = selectedOption;
+
+    optionMenu.classList.remove("active");
+  });
+});
+</script>
 	
 <!--===============================================================================================-->
 	<script src="js/main.js"></script>

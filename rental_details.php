@@ -143,16 +143,6 @@
                 <div><i class="fa-solid fa-star favcol"></i><i class="fa-solid fa-star favcol"></i><i class="fa-solid fa-star favcol"></i><i class="fa-solid fa-star favcol"></i><i class="fa-solid fa-star favcol"></i></div>
             </div>
         </div>
-        <div class="renderprof2">
-            <!-- <div id="messrent">
-                <div class="bigfont">Message</div>
-            </div> -->
-            <div class="moreproducts2">
-
-<button class="button1 button3 ">Messsage</button>
-    
-</div> 
-        </div>
     </div>
     <!-- profile end -->
     <!-- about rental end -->

@@ -302,11 +302,9 @@ p {
         <div id="profile_heading">
             <div id="profhead">Upload</div>
         </div>
-        <div class="iconprofileheader">
-        <div class="iconprofileheader">
+        <!-- <div class="iconprofileheader">
         <a href="update.php" style="color:black"><i class="fa-solid fa-gear fa-2x"></i></a>
-        </div>
-        </div>
+        </div> -->
     </div>
     <!-- header end -->
 
@@ -399,7 +397,7 @@ p {
                                         <input type="text" name="fname" placeholder="Product Title" />
                                         <input class="form-control mr-sm-2" type="search" placeholder="Search Brand" aria-label="Search">
                                         <input type="text" name="phno" placeholder="Product Type" />
-                                        <div class="input-group mb-3">
+<div class="input-group mb-3">
   <div class="input-group-prepend">
     <span class="input-group-text">$</span>
   </div>
@@ -597,16 +595,6 @@ p {
     </div>
 
     <!-- content end -->
-
-    <div class="gap4">
-
-    </div>
-
-    
-    <!-- footerstart -->
-    <?php include 'footer.php' ?>
-
-    <!-- footer end -->
 
     <script type="text/javascript">
         // function showPreview1(event) {
