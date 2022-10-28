@@ -249,11 +249,11 @@ body {font-family: Verdana, sans-serif;}
             </div>
 
             <!-- Button show menu -->
-            <div class="btn-show-menu-mobile hamburger hamburger--squeeze">
+            <!-- <div class="btn-show-menu-mobile hamburger hamburger--squeeze">
                 <span class="hamburger-box">
 					<span class="hamburger-inner"></span>
                 </span>
-            </div>
+            </div> -->
         </div>
 
 
@@ -666,7 +666,7 @@ body {font-family: Verdana, sans-serif;}
                     <!-- Nav tabs -->
                     <ul class="nav nav-tabs" role="tablist">
                         <li class="nav-item p-b-10">
-                            <a class="nav-link" data-toggle="tab" href="#information" role="tab">Proof of Authenticity</a>
+                            <a class="nav-link" data-toggle="tab" href="#information" role="tab">Details</a>
                         </li>
 
                         <li class="nav-item p-b-10">
@@ -712,7 +712,6 @@ body {font-family: Verdana, sans-serif;}
                                         </div>
 
                                         <p class="stext-102 cl6">
-                                            <div><span>Country: </span><span>America</span></div>
                                             <div><span>City: </span><span>Washington DC</span></div>
                                             <div><span>Insurance Type: </span><i class="fa-sharp fa-solid fa-circle" style="color: green;"></i><span> Covers Rentals </span></div>
                                         </p>

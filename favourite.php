@@ -16,21 +16,27 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
   <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/main.css">
     <style>
-        .card-body {
-    -ms-flex: 1 1 auto;
-    flex: 1 1 auto;
-   
-}
-
-        .htcard{
-            height:280px !important;
-        }
         p{
             margin-top: 0;
     margin-bottom:0 !important;
         }
-        
+        a{
+            color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+        }
+        /* .img-wish {
+    text-align: center !important;
+} */
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    height: 100%;
+   
+}
 .button1 {
   background-color: #9DCAEB;
   border: none;
@@ -45,8 +51,68 @@
 
 .button3 {font-size: 16px;}
 
-/* .img-wish{text-align: center !important;} */
-.img-wish img{width: 100%;} 
+/*the container must be positioned relative:*/
+.custom-select {
+  position: relative;
+  font-family: Arial;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element:*/
+} 
+
+.select-selected {
+  background-color: white;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items div,.select-selected {
+  color: #343a40;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: rgb(0 0 0 / 15%);
+  cursor: pointer;
+  user-select: none;
+  font-size: 14px;
+}
+
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: white;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
     </style>
 </head>
 
@@ -68,58 +134,59 @@
 
     <!-- favourite content start -->
     <div id="fav1">
-        <div  class="img-wish">
+    <div  class="img-wish" style="margin: 6px;">
         
 
-        <a href="product-detail.php"><div class="card" style="width: 100%;">
+        <a href="product-detail.php"><div class="card" style="width: 100%; border:none;">
                                 <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=42b2d9ae6feb9c4ff98b9133addfb698">
-                                <div class="card-body">
-                                
-                                <span class="fa fa-heart" style="float: right;"></span>
-                     
-                               
-                                 <p class="card-text">Brand New Watch</p>
-                                 <small class="text-muted">Louis Vuitton</small>
-                               
+                                <div class="card-body" style="padding: 8px;">
+                                    
+                                  <span class="fa fa-heart" style="float: right;"></span>
+                                 <p class="card-text" style="color: black;">Brand New Watch</p>
+                                 <small class="text-muted" >Louis Vuitton</small>
+                                 <p class="card-text" ><small class="text-muted">Size: <span> Large</span> </small></p>
 
                                  
                                 <center>
-                                 <a href="#" class="btn btn-primary">€ 39.55 / Day</a>
+                                 <a href="#" class="btn btn-primary bor4">€ 39.55 / Day</a>
                                   </center>
                                 </div>
                               </div></a>
 
 
 
+
 </div>
 
-<div class="img-wish">
+<div class="img-wish" style="margin: 6px;">
 
-<a href="product-detail.php"><div class="card" style="width: 100%;">
+<a href="product-detail.php"><div class="card" style="width: 100%; border:none;">
                             <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=42b2d9ae6feb9c4ff98b9133addfb698">
-                            <div class="card-body">
+                            <div class="card-body" style="padding: 8px;">
                               <span class="fa fa-heart" style="float: right;"></span>
-                             <p class="card-text">Brand New Watch   </p>
+                             <p class="card-text" style="color: black;">Brand New Watch</p>
                              <small class="text-muted">Louis Vuitton</small>
-
-                            
+                             <p class="card-text" ><small class="text-muted">Size: <span> Large</span> </small></p>
+                             
                             <center>
                              <a href="#" class="btn btn-primary">€ 39.55 / Day</a>
                               </center>
                             </div>
                           </div></a>
 
+                          
+
 
 </div>
-<div class="img-wish">
+<div class="img-wish" style="margin: 6px;">
 
-<a href="product-detail.php"><div class="card" style="width: 100%;">
+<a href="product-detail.php"><div class="card" style="width: 100%; border:none;">
                             <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=42b2d9ae6feb9c4ff98b9133addfb698">
-                            <div class="card-body">
+                            <div class="card-body" style="padding: 8px;">
                               <span class="fa fa-heart" style="float: right;"></span>
-                             <p class="card-text">Brand New Watch   </p>
+                             <p class="card-text" style="color: black;">Brand New Watch</p>
                              <small class="text-muted">Louis Vuitton</small>
-
+                             <p class="card-text" ><small class="text-muted">Size: <span> Large</span> </small></p>
                              
                             <center>
                              <a href="#" class="btn btn-primary">€ 39.55 / Day</a>
@@ -128,116 +195,11 @@
                           </div></a>
 
 
+
 </div>
                               
 
     </div>
-    <!-- <div id="favourite_content"> -->
-        <!-- first card -->
-        <!-- <div class="card mb-3 mt-5" style="max-width: 540px;">
-            <div class="card-content1">
-                <div>
-                    <img src="images/product-12.jpg" height="100%" width="100%"/>
-                </div>
-                <div class="card-content2">
-                    <div class="card-content3">
-                        <div class="hershal">
-                            Herschel Supply
-                        </div>
-                        <div style="display:flex;justify-content: center !important">
-                        <div><i class="fa-solid fa-heart sizeicon"></i></div>
-                        </div>
-                    </div>
-                    <div>
-                    <span class="brand2">Brand: </span> <span class="tory4">Tory Burch</span>
-                    </div>
-                    <div style="display:flex;justify-content:center" class="flcen">
-                    <button class="button-18 sizbtn" role="button"><span class="txtsub1">€36.52 / Day</span></button>
-
-                    </div>
-                </div>
-            </div>
-        </div> -->
-
-
-
-        <!-- second card -->
-        <!-- <div class="card mb-3 mt-5" style="max-width: 540px;">
-        <div class="card-content1">
-                <div>
-                    <img src="images/product-12.jpg" height="100%" width="100%"/>
-                </div>
-                <div class="card-content2">
-                    <div class="card-content3">
-                        <div class="hershal">
-                            Herschel Supply
-                        </div>
-                        <div style="display:flex;justify-content: center !important">
-                        <div><i class="fa-solid fa-heart sizeicon"></i></div>
-                        </div>
-                    </div>
-                    <div>
-                    <span class="brand2">Brand: </span> <span class="tory4">Tory Burch</span>
-                    </div>
-                    <div style="display:flex;justify-content:center" class="flcen">
-                    <button class="button-18 sizbtn" role="button"><span class="txtsub1">€36.52 / Day</span></button>
-
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <!-- third card -->
-        <!-- <div class="card mb-3 mt-5" style="max-width: 540px;">
-        <div class="card-content1">
-                <div>
-                    <img src="images/product-12.jpg" height="100%" width="100%"/>
-                </div>
-                <div class="card-content2">
-                    <div class="card-content3">
-                        <div class="hershal">
-                            Herschel Supply
-                        </div>
-                        <div style="display:flex;justify-content: center !important">
-                        <div><i class="fa-solid fa-heart sizeicon"></i></div>
-                        </div>
-                    </div>
-                    <div>
-                    <span class="brand2">Brand: </span> <span class="tory4">Tory Burch</span>
-                    </div>
-                    <div style="display:flex;justify-content:center " class="flcen">
-                    <button class="button-18 sizbtn" role="button"><span class="txtsub1">€36.52 / Day</span></button>
-
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <!-- fourth card -->
-        <!-- <div class="card mb-3 mt-5" style="max-width: 540px;">
-        <div class="card-content1">
-                <div>
-                    <img src="images/product-12.jpg" height="100%" width="100%"/>
-                </div>
-                <div class="card-content2">
-                    <div class="card-content3">
-                        <div class="hershal">
-                            Herschel Supply
-                        </div>
-                        <div style="display:flex;justify-content: center !important">
-                        <div><i class="fa-solid fa-heart sizeicon"></i></div>
-                        </div>
-                    </div>
-                    <div>
-                    <span class="brand2">Brand: </span> <span class="tory4">Tory Burch</span>
-                    </div>
-                    <div style="display:flex;justify-content:center" class="flcen">
-                    <button class="button-18 sizbtn" role="button"><span class="txtsub1">€36.52 / Day</span></button>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
     <!-- favourite content end -->
 
    <!-- more products start -->

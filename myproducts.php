@@ -122,9 +122,9 @@
         <div id="profile_heading">
             <div id="profheadrev">My Products</div>
         </div>
-        <div class="iconprofileheader">
+        <!-- <div class="iconprofileheader">
         <a href="update.php" style="color:black"><i class="fa-solid fa-gear fa-2x"></i></a>
-        </div>
+        </div> -->
     </div>
     <!-- header end -->
 
@@ -196,13 +196,13 @@
                                 <div class="card-body" style="padding: 8px;">
                                     
                                   <span class="fa fa-heart" style="float: right;"></span>
-                                 <p class="card-text">Brand New Watch</p>
+                                 <p class="card-text" style="color: black;>Brand New Watch</p>
                                  <small class="text-muted" >Louis Vuitton</small>
                                  <p class="card-text" ><small class="text-muted">Size: <span> Large</span> </small></p>
 
                                  
                                 <center>
-                                 <a href="#" class="btn btn-primary">€ 39.55 / Day</a>
+                                 <a href="#" class="btn btn-primary bor4">€ 39.55 / Day</a>
                                   </center>
                                 </div>
                               </div></a>
@@ -227,7 +227,7 @@
                             <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=42b2d9ae6feb9c4ff98b9133addfb698">
                             <div class="card-body" style="padding: 8px;">
                               <span class="fa fa-heart" style="float: right;"></span>
-                             <p class="card-text">Brand New Watch</p>
+                             <p class="card-text" style="color: black;>Brand New Watch</p>
                              <small class="text-muted">Louis Vuitton</small>
                              <p class="card-text" ><small class="text-muted">Size: <span> Large</span> </small></p>
                              
@@ -257,7 +257,7 @@
                             <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=42b2d9ae6feb9c4ff98b9133addfb698">
                             <div class="card-body" style="padding: 8px;">
                               <span class="fa fa-heart" style="float: right;"></span>
-                             <p class="card-text">Brand New Watch</p>
+                             <p class="card-text" style="color: black;>Brand New Watch</p>
                              <small class="text-muted">Louis Vuitton</small>
                              <p class="card-text" ><small class="text-muted">Size: <span> Large</span> </small></p>
                              

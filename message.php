@@ -501,8 +501,8 @@
                 <div class="friend">
                     <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/1_copy.jpg" />
                     <p>
-                        <strong>Miro Badev</strong>
-                        <span>mirobadev@gmail.com</span>
+                        <strong style="color: black;">Miro Badev</strong> <br>
+                        <span style="font-weight: bold;">Hi</span>
                     </p>
                     <div class="status available"></div>
                 </div>
@@ -510,17 +510,17 @@
                 <div class="friend">
                     <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/2_copy.jpg" />
                     <p>
-                        <strong>Martin Joseph</strong>
-                        <span>marjoseph@gmail.com</span>
+                        <strong style="color: black;">Martin Joseph</strong> <br>
+                        <span style="font-weight: bold;">How are you</span>
                     </p>
-                    <div class="status away"></div>
+                    <div class="status available"></div>
                 </div>
 
                 <div class="friend">
                     <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/3_copy.jpg" />
                     <p>
-                        <strong>Tomas Kennedy</strong>
-                        <span>tomaskennedy@gmail.com</span>
+                        <strong>Tomas Kennedy</strong> <br>
+                        <span>Lorem ipsum dolor sit,</span>
                     </p>
                     <div class="status inactive"></div>
                 </div>
@@ -528,8 +528,8 @@
                 <div class="friend">
                     <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/4_copy.jpg" />
                     <p>
-                        <strong>Enrique	Sutton</strong>
-                        <span>enriquesutton@gmail.com</span>
+                        <strong>Enrique	Sutton</strong> <br>
+                        <span>Lorem ipsum dolor sit,</span>
                     </p>
                     <div class="status inactive"></div>
                 </div>
@@ -537,8 +537,8 @@
                 <div class="friend">
                     <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/5_copy.jpg" />
                     <p>
-                        <strong>	Darnell	Strickland</strong>
-                        <span>darnellstrickland@gmail.com</span>
+                        <strong>	Darnell	Strickland</strong> <br>
+                        <span>Lorem ipsum dolor sit,</span>
                     </p>
                     <div class="status inactive"></div>
                 </div>
