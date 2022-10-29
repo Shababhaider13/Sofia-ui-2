@@ -110,6 +110,48 @@
   background-color: rgba(0, 0, 0, 0.1);
 }
 
+
+.three-dots:after {
+  cursor: pointer;
+  color: #fff;
+  content: '\2807';
+  font-size: 20px;
+  padding: 0 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #353535;
+  font-size: 14px;
+}
+
+a div {
+  padding: 4px;
+}
+
+.dropdown {
+  width: 60px;
+  position: absolute;
+  right: 10px;
+  background-color: #fff;
+  outline: none;
+  opacity: 0;
+  z-index: -1;
+  max-height: 0;
+  transition: opacity 0.1s, z-index 0.1s, max-height 5s;
+}
+
+.dropdown-container:focus {
+  outline: none;
+}
+
+.dropdown-container:focus .dropdown {
+  opacity: 1;
+  z-index: 100;
+  max-height: 100vh;
+  transition: opacity 0.2s, z-index 0.2s, max-height 0.2s;
+}
+
     </style>
 </head>
 
@@ -128,77 +170,33 @@
     </div>
     <!-- header end -->
 
-    <!-- <div style="margin-bottom:50%">
-        <div class="myproducts">
-            <div class="prod1">
-                <div class="imgprod1"></div>
-                <div>
-                    <div class="tory1">Tory Burchearrings</div>
-                    <div class="tory2">117 views</div>
-                    <div class="tory2">27 Favourites</div>
-                    <div class="tory2">2 times rental out</div>
-                </div>
-            </div>
-
-
-            <div class="prod1">
-                <div class="imgprod2"></div>
-                <div>
-                    <div class="tory1">Tory Burchearrings</div>
-                    <div class="tory2">117 views</div>
-                    <div class="tory2">27 Favourites</div>
-                    <div class="tory2">2 times rental out</div>
-                </div>
-            </div>
-        </div>
-        <div class="myproducts">
-            <div class="prod1">
-                <div class="imgprod3"></div>
-                <div>
-                    <div class="tory1">Tory Burchearrings</div>
-                    <div class="tory2">117 views</div>
-                    <div class="tory2">27 Favourites</div>
-                    <div class="tory2">2 times rental out</div>
-                </div>
-            </div>
-
-
-            <div class="prod1">
-                <div class="imgprod4"></div>
-                <div>
-                    <div class="tory1">Tory Burchearrings</div>
-                    <div class="tory2">117 views</div>
-                    <div class="tory2">27 Favourites</div>
-                    <div class="tory2">2 times rental out</div>
-                </div>
-            </div>
-        </div>
-        <div class="myproducts">
-            <div class="prod1">
-                <div class="imgprod5"></div>
-                <div>
-                    <div class="tory1">Tory Burchearrings</div>
-                    <div class="tory2">117 views</div>
-                    <div class="tory2">27 Favourites</div>
-                    <div class="tory2">2 times rental out</div>
-                </div>
-            </div>
-        </div>
-    </div> -->
 
     <div id="fav1">
 
         <div  class="img-wish" style="margin: 6px;">
         
 
-        <a href="product-detail.php"><div class="card" style="width: 100%; border:none;">
-                                <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=42b2d9ae6feb9c4ff98b9133addfb698">
+        <!-- <a href="product-detail.php"> -->
+          <div class="card" style="width: 100%; border:none;">
+                                <img class="img-fluid" alt="100%x280" src="product1.jpg" style="width: 100%;">
+                              
+                                     <div class="dropdown-container" tabindex="-1"  style="position: absolute; left:85%; top:2%">
+                                       <div class="three-dots"></div>
+                                       <div class="dropdown">
+                                         <a href="editproduct.php"><div>Edit</div></a>
+                                         <a href="#"><div>Pause </div></a>
+                                         <a href="#"  data-toggle="modal" data-target="#exampleModalCenter"><div>Delete</div></a>
+                                       </div>
+                                     </div>
+                                    
+
+                                    
+
                                 <div class="card-body" style="padding: 8px;">
                                     
                                   <span class="fa fa-heart" style="float: right;"></span>
-                                 <p class="card-text" style="color: black;>Brand New Watch</p>
-                                 <small class="text-muted" >Louis Vuitton</small>
-                                 <p class="card-text" ><small class="text-muted">Size: <span> Large</span> </small></p>
+                                 <p class="card-text" style="color: black;">Brand New Watch</p>
+                                 <small class="text-muted" >Louis Vuitton<span> |</span> <span> Large</span></small>
 
                                  
                                 <center>
@@ -221,21 +219,33 @@
 
 </div>
 
+
 <div class="img-wish" style="margin: 6px;">
 
-<a href="product-detail.php"><div class="card" style="width: 100%; border:none;">
-                            <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=42b2d9ae6feb9c4ff98b9133addfb698">
+<div class="card" style="width: 100%; border:none;">
+                            <img class="img-fluid" alt="100%x280" src="product3.jpg" style="width: 100%;">
+                            
+                                                          
+                            <div class="dropdown-container" tabindex="-1"  style="position: absolute; left:85%; top:2%">
+                                       <div class="three-dots"></div>
+                                       <div class="dropdown">
+                                         <a href="editproduct.php"><div>Edit</div></a>
+                                         <a href="#"><div>Pause</div></a>
+                                         <a href="#"  data-toggle="modal" data-target="#exampleModalCenter"><div>Delete</div></a>
+                                       </div>
+                                     </div>
+
+
                             <div class="card-body" style="padding: 8px;">
                               <span class="fa fa-heart" style="float: right;"></span>
-                             <p class="card-text" style="color: black;>Brand New Watch</p>
-                             <small class="text-muted">Louis Vuitton</small>
-                             <p class="card-text" ><small class="text-muted">Size: <span> Large</span> </small></p>
+                             <p class="card-text" style="color: black;">Brand New Watch</p>
+                             <small class="text-muted" >Louis Vuitton<span> |</span> <span> Large</span></small>
                              
                             <center>
                              <a href="#" class="btn btn-primary">€ 39.55 / Day</a>
                               </center>
                             </div>
-                          </div></a>
+                          </div>
                           <div class="custom-select" style="width:100%;">
   <select>
     <!-- <option value="0">Select car:</option> -->
@@ -252,20 +262,29 @@
 
 </div>
 <div class="img-wish" style="margin: 6px;">
+               <div class="card" style="width: 100%; border:none;">
+                            <img class="img-fluid" alt="100%x130px" src="product4.jpg" style="width: 100%;">
+                                                         
+                                     <div class="dropdown-container" tabindex="-1"  style="position: absolute; left:85%; top:2%">
+                                       <div class="three-dots"></div>
+                                       <div class="dropdown">
+                                         <a href="editproduct.php"><div>Edit</div></a>
+                                         <a href="#"><div>Pause</div></a>
+                                         <a href="#"  data-toggle="modal" data-target="#exampleModalCenter"><div>Delete</div></a>
+                                       </div>
+                                     </div>
 
-<a href="product-detail.php"><div class="card" style="width: 100%; border:none;">
-                            <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=42b2d9ae6feb9c4ff98b9133addfb698">
+                           
                             <div class="card-body" style="padding: 8px;">
                               <span class="fa fa-heart" style="float: right;"></span>
-                             <p class="card-text" style="color: black;>Brand New Watch</p>
-                             <small class="text-muted">Louis Vuitton</small>
-                             <p class="card-text" ><small class="text-muted">Size: <span> Large</span> </small></p>
+                             <p class="card-text" style="color: black;">Brand New Watch</p>
+                             <small class="text-muted" >Louis Vuitton<span> |</span> <span> XL</span></small>
                              
                             <center>
                              <a href="#" class="btn btn-primary">€ 39.55 / Day</a>
                               </center>
                             </div>
-                          </div></a>
+                          </div>
                           <div class="custom-select" style="width:100%;">
   <select>
     <!-- <option value="0">Select car:</option> -->
@@ -281,7 +300,28 @@
 
 
 </div>
-                              
+
+<!-- Modal Delete -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Are you sure?</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+         Do you really want to delete these product? 
+         This process cannot be undone.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" style="background-color: red; color:white; margin-left:10px"> Delete</button>
+      </div>
+    </div>
+  </div>
+</div>
 
     </div>
 
@@ -296,6 +336,48 @@
     <!-- footer start -->
     <?php include 'footer.php' ?>
     <!-- footer end -->
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="width: 95%;margin:auto">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Mark the Date</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      
+<input type="text" name="daterange" value="01/01/2018 - 01/15/2018" />
+
+<script>
+$(function() {
+  $('input[name="daterange"]').daterangepicker({
+    opens: 'left'
+  }, function(start, end, label) {
+    console.log("A new date selection was made: " + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD'));
+  });
+});
+</script>
+
+      </div>
+      <div class="modal-footer">
+         <button type="button" class="btn btn-secondary" style="width:47%; height:40px; margin-right:10px; background-color:#6c757d;" data-bs-dismiss="modal">Close</button> 
+    <button type="button" class="btn btn-primary" style="width:47%;height:40px;"><a href="sent_rental.php" style="color: white;text-decoration: none;">Check</a></button>
+      </div>
+    </div> 
+    
+
+  </div>
+</div>
+
+
+</div>
+
+       </div> 
+      
+    </div>
+  </div>
+</div>
+
     <script src="vendor/select2/select2.min.js"></script>
     <script>
         $(".js-select2").each(function() {

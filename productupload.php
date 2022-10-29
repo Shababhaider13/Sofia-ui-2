@@ -287,8 +287,7 @@ p {
   padding-bottom: 100%;
 }
 
-
-    
+  
 </style>
 
 <body>

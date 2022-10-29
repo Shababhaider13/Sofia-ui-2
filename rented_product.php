@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My products</title>
+    <title>Rented Product</title>
     <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -123,10 +123,10 @@
         <div id="profile_heading">
             <div id="profheadrev">Rented Products</div>
         </div>
-        <div class="iconprofileheader">
+        <!-- <div class="iconprofileheader">
         <a href="update.php" style="color:black"><i class="fa-solid fa-gear fa-2x"></i></a>
         
-        </div>
+        </div> -->
     </div>
     <!-- header end -->
 
@@ -193,21 +193,22 @@
     <div  class="img-wish" style="margin: 6px;">
         
 
-        <a href="product-detail.php"><div class="card" style="width: 100%; border:none;">
-                                <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=42b2d9ae6feb9c4ff98b9133addfb698">
+                             <div class="card" style="width: 100%; border:none;">
+                                <img class="img-fluid" alt="100%x280" src="product1.jpg" style="width: 100%;">
+                                <i data-toggle="modal" data-target="#exampleModalCenter" class="fa-regular fa-message" style="position:absolute; left:85%; top:3%; color:#fff;"></i>
                                 <div class="card-body" style="padding: 8px;">
                                     
                                   <span class="fa fa-heart" style="float: right;"></span>
-                                 <p class="card-text">Brand New Watch</p>
+                                 <p class="card-text" style="color: black;">Brand New Watch</p>
                                  <small class="text-muted" >Louis Vuitton</small>
-                                 <small class="text2" style="color: green;">Approve</small>
+                                 <small class="text2" style="color: green;">Approved</small>
 
                                  
                                 <center>
                                  <a href="#" class="btn btn-primary">€ 39.55 / Day</a>
                                   </center>
                                 </div>
-                              </div></a>
+                              </div>
                               <div class="custom-select"  style="width:100%;"  >
   <select >
     <!-- <option value="0">Select car:</option> -->
@@ -228,12 +229,13 @@
 <div  class="img-wish" style="margin: 6px;">
         
 
-        <a href="product-detail.php"><div class="card" style="width: 100%; border:none;">
-                                <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=42b2d9ae6feb9c4ff98b9133addfb698">
+                              <div class="card" style="width: 100%; border:none;">
+                                <img class="img-fluid" alt="100%x280" src="product4.jpg" style="width: 100%;">
+                                <i data-toggle="modal" data-target="#exampleModalCenter" class="fa-regular fa-message" style="position:absolute; left:85%; top:3%; color:#fff;"></i>
                                 <div class="card-body" style="padding: 8px;">
                                     
                                   <span class="fa fa-heart" style="float: right;"></span>
-                                 <p class="card-text">Brand New Watch</p>
+                                 <p class="card-text" style="color: black;">Brand New Watch</p>
                                  <small class="text-muted" >Louis Vuitton</small>
                                  <small class="text2" style="color: red;">Reject</small>
 
@@ -242,7 +244,7 @@
                                  <a href="#" class="btn btn-primary">€ 39.55 / Day</a>
                                   </center>
                                 </div>
-                              </div></a>
+                              </div>
                               <div class="custom-select"  style="width:100%;"  >
   <select >
     <!-- <option value="0">Select car:</option> -->
@@ -262,12 +264,13 @@
 <div  class="img-wish" style="margin: 6px;">
         
 
-        <a href="product-detail.php"><div class="card" style="width: 100%; border:none;">
-                                <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=42b2d9ae6feb9c4ff98b9133addfb698">
+                             <div class="card" style="width: 100%; border:none;">
+                                <img class="img-fluid" alt="100%x280" src="product3.jpg" style="width: 100%;">
+                                <i data-toggle="modal" data-target="#exampleModalCenter" class="fa-regular fa-message" style="position:absolute; left:85%; top:3%; color:#fff;"></i>
                                 <div class="card-body" style="padding: 8px;">
                                     
                                   <span class="fa fa-heart" style="float: right;"></span>
-                                 <p class="card-text">Brand New Watch</p>
+                                 <p class="card-text" style="color: black;">Brand New Watch</p>
                                  <small class="text-muted" >Louis Vuitton</small>
                                  <small class="text2" style="color: blue;">Pending</small>
 
@@ -276,7 +279,7 @@
                                  <a href="#" class="btn btn-primary">€ 39.55 / Day</a>
                                   </center>
                                 </div>
-                              </div></a>
+                              </div>
                               <div class="custom-select"  style="width:100%;"  >
   <select >
     <!-- <option value="0">Select car:</option> -->
@@ -292,7 +295,33 @@
 
 </div>
 
-                              
+<!-- Modal Review -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLongTitle">Write a Review</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+  <span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+  <div class="stars" style="margin: 10px 20px;">
+  <i class="fa-solid fa-star favcol"></i>
+  <i class="fa-solid fa-star favcol"></i>
+  <i class="fa-solid fa-star favcol"></i>
+  <i class="fa-solid fa-star favcol"></i>
+  <i class="fa-solid fa-star favcol"></i>
+</div>
+<textarea class="size-110 bor8 stext-102 cl2 p-lr-20 p-tb-10" id="review" name="review" style="height: 70px; border: 1px solid #e6e6e6;"></textarea>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+<button type="button" class="btn btn-primary" style="background-color: #fff; color:#888; margin-left:10px"> Submit</button>
+</div>
+</div>
+</div>
+</div>
 
     </div>
 

@@ -303,50 +303,8 @@ p {
         <div id="profile_heading">
             <div id="profhead">Edit Product</div>
         </div>
-
-        <div class="btn-show-menu-mobile hamburger hamburger--squeeze">
-                <span class="hamburger-box">
-                    <span class="hamburger-inner"></span>
-                </span>
-        </div>
     </div>
 
-    <div class="menu-mobile">
-
-<ul class="main-menu-m">
-    <li>
-        <a href="index.php">Home</a>
-        <ul class="sub-menu-m">
-            <li><a href="index.php">Homepage 1</a></li>
-            <li><a href="home-02.php">Homepage 2</a></li>
-            <li><a href="home-03.php">Homepage 3</a></li>
-        </ul>
-        <span class="arrow-main-menu-m">
-            <i class="fa fa-angle-right" aria-hidden="true"></i>
-         </span>
-    </li>
-
-    <li>
-        <a href="product.php">Shop</a>
-    </li>
-
-    <li>
-        <a href="shoping-cart.php" class="label1 rs1" data-label1="hot">Features</a>
-    </li>
-
-    <li>
-        <a href="blog.php">Blog</a>
-    </li>
-
-    <li>
-        <a href="about.php">About</a>
-    </li>
-
-    <li>
-        <a href="contact.php">Contact</a>
-    </li>
-</ul>
-</div>
     <!-- header end -->
 
     <!-- content start -->

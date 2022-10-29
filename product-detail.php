@@ -613,9 +613,16 @@ body {font-family: Verdana, sans-serif;}
                                     <!-- Add to cart
 									</button> -->
                                     <!-- <a href="sent_rental.html"></a> -->
+                                    <!-- <div class="flex-c-m stext-106 cl6 size-104 bor4 pointer hov-btn4 trans-04 m-r-8 m-tb-4">
+						            <i class="icon-close-filter cl2 m-r-6 fs-15 trans-04 zmdi zmdi-close dis-none"></i>
+                                    <a href="product-detail.php" style="text-decoration: none; padding:8px; ">€39.55/Day</a> 
+					            </div> -->
+                                
+
                                     <div id="btncheck">
-                                        
-                                        <button id="checkavail"  data-bs-toggle="modal" data-bs-target="#exampleModal">Check Availibility</button>
+                                    
+                                        <button id="checkavail"  data-bs-toggle="modal" data-bs-target="#exampleModal" style="width:100%; height:48px; padding:15px; box-shadow: none; background-color:#fff; color: #888; border: 1px solid #e6e6e6;">
+                                        Check Availibility</button>
                                     </div>
                                     
                                     
@@ -1331,8 +1338,8 @@ $(function() {
 
       </div>
       <div class="modal-footer">
-         <button type="button" class="btn btn-secondary" style="width:47%; height:40px; margin-right:10px; background-color:#6c757d;" data-bs-dismiss="modal">Close</button> 
-    <button type="button" class="btn btn-primary" style="width:47%;height:40px;"><a href="sent_rental.php" style="color: white;text-decoration: none;">Check</a></button>
+         <button type="button" class="btn btn-secondary" style="padding:0; box-shadow: none; width:47%; height:40px; margin-right:10px; background-color:#6c757d; color:white" data-bs-dismiss="modal">Close</button> 
+    <button type="button" class="btn btn-primary" style="width:47%;height:40px; padding:0; box-shadow: none;"><a href="sent_rental.php" style="color: white;text-decoration: none; color:#353535">Check</a></button>
       </div>
     </div> 
     
