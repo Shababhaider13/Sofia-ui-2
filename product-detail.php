@@ -889,27 +889,26 @@ body {font-family: Verdana, sans-serif;}
             <!-- Slide2 -->
             <div class="wrap-slick2">
                 <div class="slick2">
-                    <div class="item-slick2 p-l-15 p-r-15 p-t-15 p-b-15">
-                        <!-- Block2 -->
-                        <div class="block2">
+                   <!-- 1st -->
+                   <div class="block2" style="margin-bottom: 10px;">
                             <div class="block2-pic hov-img0">
-                                <img src="images/product-01.jpg" alt="IMG-PRODUCT">
-
+                                <a href="product-detail.php">
+                                 <img src="images/product-01.jpg" alt="IMG-PRODUCT">
+                                </a>
                                 <a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
 									Quick View
 								</a>
                             </div>
 
-                            <div class="block2-txt flex-w flex-t p-t-14">
+                            <div class="block2-txt flex-w flex-t p-t-14" style="justify-content: center;">
                                 <div class="block2-txt-child1 flex-col-l ">
                                     <a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 										Esprit Ruffle Shirt
 									</a>
-
-                                    <span class="stext-105 cl3">
-										$16.64<span>/ Day</span>
-									</span>
-                                    
+                                     <p class="card-text" ><small class="text-muted">
+                                        Louis Vuitton 
+                                        <span style="color:#C5C5C5">|</span> <span>xl</span></small>
+                                    </p>
                                 </div>
 
                                 <div class="block2-txt-child2 flex-r p-t-3">
@@ -918,30 +917,33 @@ body {font-family: Verdana, sans-serif;}
                                         <img class="icon-heart2 dis-block trans-04 ab-t-l" src="images/icons/icon-heart-02.png" alt="ICON">
                                     </a>
                                 </div>
+                                <div class="flex-c-m stext-106 cl6 size-104 bor4 pointer hov-btn4 trans-04 m-r-8 m-tb-4">
+						            <i class="icon-close-filter cl2 m-r-6 fs-15 trans-04 zmdi zmdi-close dis-none"></i>
+                                    <a href="product-detail.php" style="text-decoration: none; padding:8px; ">€39.55/Day</a> 
+					            </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="item-slick2 p-l-15 p-r-15 p-t-15 p-b-15">
-                        <!-- Block2 -->
-                        <div class="block2">
+                        <!-- 2nd -->
+                        <div class="block2" style="margin-bottom: 10px;">
                             <div class="block2-pic hov-img0">
-                                <img src="images/product-02.jpg" alt="IMG-PRODUCT">
-
+                                <a href="product-detail.php">
+                                 <img src="images/product-03.jpg" alt="IMG-PRODUCT">
+                                </a>
                                 <a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
 									Quick View
 								</a>
                             </div>
 
-                            <div class="block2-txt flex-w flex-t p-t-14">
+                            <div class="block2-txt flex-w flex-t p-t-14" style="justify-content: center;">
                                 <div class="block2-txt-child1 flex-col-l ">
                                     <a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
-										Herschel supply
+										Esprit Ruffle Shirt
 									</a>
-
-                                    <span class="stext-105 cl3">
-										$35.31<span>/ Day</span>
-									</span>
+                                     <p class="card-text" ><small class="text-muted">
+                                        Louis Vuitton 
+                                        <span style="color:#C5C5C5">|</span> <span>xl</span></small>
+                                    </p>
                                 </div>
 
                                 <div class="block2-txt-child2 flex-r p-t-3">
@@ -950,30 +952,33 @@ body {font-family: Verdana, sans-serif;}
                                         <img class="icon-heart2 dis-block trans-04 ab-t-l" src="images/icons/icon-heart-02.png" alt="ICON">
                                     </a>
                                 </div>
+                                <div class="flex-c-m stext-106 cl6 size-104 bor4 pointer hov-btn4 trans-04 m-r-8 m-tb-4">
+						            <i class="icon-close-filter cl2 m-r-6 fs-15 trans-04 zmdi zmdi-close dis-none"></i>
+                                    <a href="product-detail.php" style="text-decoration: none; padding:8px; ">€39.55/Day</a> 
+					            </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="item-slick2 p-l-15 p-r-15 p-t-15 p-b-15">
-                        <!-- Block2 -->
-                        <div class="block2">
+                        <!-- 3rd -->
+                        <div class="block2" style="margin-bottom: 10px;">
                             <div class="block2-pic hov-img0">
-                                <img src="images/product-03.jpg" alt="IMG-PRODUCT">
-
+                                <a href="product-detail.php">
+                                 <img src="images/product-02.jpg" alt="IMG-PRODUCT">
+                                </a>
                                 <a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
 									Quick View
 								</a>
                             </div>
 
-                            <div class="block2-txt flex-w flex-t p-t-14">
+                            <div class="block2-txt flex-w flex-t p-t-14" style="justify-content: center;">
                                 <div class="block2-txt-child1 flex-col-l ">
                                     <a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
-										Only Check Trouser
+										Esprit Ruffle Shirt
 									</a>
-
-                                    <span class="stext-105 cl3">
-										$25.50<span>/ Day</span>
-									</span>
+                                     <p class="card-text" ><small class="text-muted">
+                                        Louis Vuitton 
+                                        <span style="color:#C5C5C5">|</span> <span>xl</span></small>
+                                    </p>
                                 </div>
 
                                 <div class="block2-txt-child2 flex-r p-t-3">
@@ -982,30 +987,33 @@ body {font-family: Verdana, sans-serif;}
                                         <img class="icon-heart2 dis-block trans-04 ab-t-l" src="images/icons/icon-heart-02.png" alt="ICON">
                                     </a>
                                 </div>
+                                <div class="flex-c-m stext-106 cl6 size-104 bor4 pointer hov-btn4 trans-04 m-r-8 m-tb-4">
+						            <i class="icon-close-filter cl2 m-r-6 fs-15 trans-04 zmdi zmdi-close dis-none"></i>
+                                    <a href="product-detail.php" style="text-decoration: none; padding:8px; ">€39.55/Day</a> 
+					            </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="item-slick2 p-l-15 p-r-15 p-t-15 p-b-15">
-                        <!-- Block2 -->
-                        <div class="block2">
+                        <!-- 4th -->
+                        <div class="block2" style="margin-bottom: 10px;">
                             <div class="block2-pic hov-img0">
-                                <img src="images/product-04.jpg" alt="IMG-PRODUCT">
-
+                                <a href="product-detail.php">
+                                 <img src="images/product-11.jpg" alt="IMG-PRODUCT">
+                                </a>
                                 <a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
 									Quick View
 								</a>
                             </div>
 
-                            <div class="block2-txt flex-w flex-t p-t-14">
+                            <div class="block2-txt flex-w flex-t p-t-14" style="justify-content: center;">
                                 <div class="block2-txt-child1 flex-col-l ">
                                     <a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
-										Classic Trench Coat
+										Esprit Ruffle Shirt
 									</a>
-
-                                    <span class="stext-105 cl3">
-										$75.00<span>/ Day</span>
-									</span>
+                                     <p class="card-text" ><small class="text-muted">
+                                        Louis Vuitton 
+                                        <span style="color:#C5C5C5">|</span> <span>xl</span></small>
+                                    </p>
                                 </div>
 
                                 <div class="block2-txt-child2 flex-r p-t-3">
@@ -1014,30 +1022,33 @@ body {font-family: Verdana, sans-serif;}
                                         <img class="icon-heart2 dis-block trans-04 ab-t-l" src="images/icons/icon-heart-02.png" alt="ICON">
                                     </a>
                                 </div>
+                                <div class="flex-c-m stext-106 cl6 size-104 bor4 pointer hov-btn4 trans-04 m-r-8 m-tb-4">
+						            <i class="icon-close-filter cl2 m-r-6 fs-15 trans-04 zmdi zmdi-close dis-none"></i>
+                                    <a href="product-detail.php" style="text-decoration: none; padding:8px; ">€39.55/Day</a> 
+					            </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="item-slick2 p-l-15 p-r-15 p-t-15 p-b-15">
-                        <!-- Block2 -->
-                        <div class="block2">
+                        <!-- 5th -->
+                        <div class="block2" style="margin-bottom: 10px;">
                             <div class="block2-pic hov-img0">
-                                <img src="images/product-05.jpg" alt="IMG-PRODUCT">
-
+                                <a href="product-detail.php">
+                                 <img src="images/product-04.jpg" alt="IMG-PRODUCT">
+                                </a>
                                 <a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
 									Quick View
 								</a>
                             </div>
 
-                            <div class="block2-txt flex-w flex-t p-t-14">
+                            <div class="block2-txt flex-w flex-t p-t-14" style="justify-content: center;">
                                 <div class="block2-txt-child1 flex-col-l ">
                                     <a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
-										Front Pocket Jumper
+										Esprit Ruffle Shirt
 									</a>
-
-                                    <span class="stext-105 cl3">
-										$34.75<span>/ Day</span>
-									</span>
+                                     <p class="card-text" ><small class="text-muted">
+                                        Louis Vuitton 
+                                        <span style="color:#C5C5C5">|</span> <span>xl</span></small>
+                                    </p>
                                 </div>
 
                                 <div class="block2-txt-child2 flex-r p-t-3">
@@ -1046,30 +1057,33 @@ body {font-family: Verdana, sans-serif;}
                                         <img class="icon-heart2 dis-block trans-04 ab-t-l" src="images/icons/icon-heart-02.png" alt="ICON">
                                     </a>
                                 </div>
+                                <div class="flex-c-m stext-106 cl6 size-104 bor4 pointer hov-btn4 trans-04 m-r-8 m-tb-4">
+						            <i class="icon-close-filter cl2 m-r-6 fs-15 trans-04 zmdi zmdi-close dis-none"></i>
+                                    <a href="product-detail.php" style="text-decoration: none; padding:8px; ">€39.55/Day</a> 
+					            </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="item-slick2 p-l-15 p-r-15 p-t-15 p-b-15">
-                        <!-- Block2 -->
-                        <div class="block2">
+                        <!-- 6th -->
+                        <div class="block2" style="margin-bottom: 10px;">
                             <div class="block2-pic hov-img0">
-                                <img src="images/product-06.jpg" alt="IMG-PRODUCT">
-
+                                <a href="product-detail.php">
+                                 <img src="images/product-10.jpg" alt="IMG-PRODUCT">
+                                </a>
                                 <a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
 									Quick View
 								</a>
                             </div>
 
-                            <div class="block2-txt flex-w flex-t p-t-14">
+                            <div class="block2-txt flex-w flex-t p-t-14" style="justify-content: center;">
                                 <div class="block2-txt-child1 flex-col-l ">
                                     <a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
-										Vintage Inspired Classic 
+										Esprit Ruffle Shirt
 									</a>
-
-                                    <span class="stext-105 cl3">
-										$93.20<span>/ Day</span>
-									</span>
+                                     <p class="card-text" ><small class="text-muted">
+                                        Louis Vuitton 
+                                        <span style="color:#C5C5C5">|</span> <span>xl</span></small>
+                                    </p>
                                 </div>
 
                                 <div class="block2-txt-child2 flex-r p-t-3">
@@ -1078,73 +1092,12 @@ body {font-family: Verdana, sans-serif;}
                                         <img class="icon-heart2 dis-block trans-04 ab-t-l" src="images/icons/icon-heart-02.png" alt="ICON">
                                     </a>
                                 </div>
+                                <div class="flex-c-m stext-106 cl6 size-104 bor4 pointer hov-btn4 trans-04 m-r-8 m-tb-4">
+						            <i class="icon-close-filter cl2 m-r-6 fs-15 trans-04 zmdi zmdi-close dis-none"></i>
+                                    <a href="product-detail.php" style="text-decoration: none; padding:8px; ">€39.55/Day</a> 
+					            </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="item-slick2 p-l-15 p-r-15 p-t-15 p-b-15">
-                        <!-- Block2 -->
-                        <div class="block2">
-                            <div class="block2-pic hov-img0">
-                                <img src="images/product-07.jpg" alt="IMG-PRODUCT">
-
-                                <a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
-									Quick View
-								</a>
-                            </div>
-
-                            <div class="block2-txt flex-w flex-t p-t-14">
-                                <div class="block2-txt-child1 flex-col-l ">
-                                    <a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
-										Shirt in Stretch Cotton
-									</a>
-
-                                    <span class="stext-105 cl3">
-										$52.66<span>/ Day</span>
-									</span>
-                                </div>
-
-                                <div class="block2-txt-child2 flex-r p-t-3">
-                                    <a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-                                        <img class="icon-heart1 dis-block trans-04" src="images/icons/icon-heart-01.png" alt="ICON">
-                                        <img class="icon-heart2 dis-block trans-04 ab-t-l" src="images/icons/icon-heart-02.png" alt="ICON">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item-slick2 p-l-15 p-r-15 p-t-15 p-b-15">
-                        <!-- Block2 -->
-                        <div class="block2">
-                            <div class="block2-pic hov-img0">
-                                <img src="images/product-08.jpg" alt="IMG-PRODUCT">
-
-                                <a href="#" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04 js-show-modal1">
-									Quick View
-								</a>
-                            </div>
-
-                            <div class="block2-txt flex-w flex-t p-t-14">
-                                <div class="block2-txt-child1 flex-col-l ">
-                                    <a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
-										Pieces Metallic Printed
-									</a>
-
-                                    <span class="stext-105 cl3">
-										$18.96<span>/ Day</span>
-									</span>
-                                </div>
-
-                                <div class="block2-txt-child2 flex-r p-t-3">
-                                    <a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
-                                        <img class="icon-heart1 dis-block trans-04" src="images/icons/icon-heart-01.png" alt="ICON">
-                                        <img class="icon-heart2 dis-block trans-04 ab-t-l" src="images/icons/icon-heart-02.png" alt="ICON">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>

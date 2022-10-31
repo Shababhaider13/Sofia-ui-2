@@ -140,6 +140,7 @@ body {
     opacity: 0;
   }
 }
+
 </style>
 
 </head>
@@ -400,7 +401,7 @@ body {
 
 	
 	<!-- Product -->
-	<div class="bg0 m-t-23 p-b-140">
+	<div class="bg0 p-b-140">
 		<div class="container">
 			<div class="flex-w flex-sb-m p-b-52">
 
@@ -432,12 +433,14 @@ body {
 
 				<!-- Filter -->
 				<div class="dis-none panel-filter w-full p-t-10">
-					
+				    <button type="button" class="close" data-dismiss="zmdi-close" aria-label="Close" style="top:23%; left:88%; position:absolute;">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
 					<div class="wrap-filter flex-w bg6 w-full p-lr-40 p-t-27 p-lr-15-sm">
-
+					
 					<div class="flex-w flex-l-m filter-tope-group m-tb-10">
 					<button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5 how-active1" data-filter="*">
-						All Products
+						Products
 					</button>
 
 					<button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" data-filter=".women">
@@ -618,7 +621,7 @@ body {
 							</a>
 						</div>
 
-						<div class="block2-txt flex-w flex-t p-t-14">
+						<div class="block2-txt flex-w flex-t p-t-14" style="justify-content: center;">
 							<div class="block2-txt-child1 flex-col-l ">
 								<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Esprit Ruffle Shirt
@@ -635,6 +638,10 @@ body {
 									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="images/icons/icon-heart-02.png" alt="ICON">
 								</a>
 							</div>
+							<div class="flex-c-m stext-106 cl6 size-104 bor4 pointer hov-btn4 trans-04 m-r-8 m-tb-4">
+						            <i class="icon-close-filter cl2 m-r-6 fs-15 trans-04 zmdi zmdi-close dis-none"></i>
+                                    <a href="product-detail.php" style="text-decoration: none; padding:8px; ">€39.55/Day</a> 
+					            </div>
 						</div>
 					</div>
 				</div>
@@ -650,7 +657,7 @@ body {
 							</a>
 						</div>
 
-						<div class="block2-txt flex-w flex-t p-t-14">
+						<div class="block2-txt flex-w flex-t p-t-14" style="justify-content: center;">
 							<div class="block2-txt-child1 flex-col-l ">
 								<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Herschel supply
@@ -667,6 +674,10 @@ body {
 									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="images/icons/icon-heart-02.png" alt="ICON">
 								</a>
 							</div>
+							<div class="flex-c-m stext-106 cl6 size-104 bor4 pointer hov-btn4 trans-04 m-r-8 m-tb-4">
+						            <i class="icon-close-filter cl2 m-r-6 fs-15 trans-04 zmdi zmdi-close dis-none"></i>
+                                    <a href="product-detail.php" style="text-decoration: none; padding:8px; ">€39.55/Day</a> 
+					            </div>
 						</div>
 					</div>
 				</div>
@@ -682,7 +693,7 @@ body {
 							</a>
 						</div>
 
-						<div class="block2-txt flex-w flex-t p-t-14">
+						<div class="block2-txt flex-w flex-t p-t-14" style="justify-content: center;">
 							<div class="block2-txt-child1 flex-col-l ">
 								<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Only Check Trouser
@@ -699,6 +710,10 @@ body {
 									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="images/icons/icon-heart-02.png" alt="ICON">
 								</a>
 							</div>
+							<div class="flex-c-m stext-106 cl6 size-104 bor4 pointer hov-btn4 trans-04 m-r-8 m-tb-4">
+						            <i class="icon-close-filter cl2 m-r-6 fs-15 trans-04 zmdi zmdi-close dis-none"></i>
+                                    <a href="product-detail.php" style="text-decoration: none; padding:8px; ">€39.55/Day</a> 
+					            </div>
 						</div>
 					</div>
 				</div>
@@ -714,7 +729,7 @@ body {
 							</a>
 						</div>
 
-						<div class="block2-txt flex-w flex-t p-t-14">
+						<div class="block2-txt flex-w flex-t p-t-14" style="justify-content: center;">
 							<div class="block2-txt-child1 flex-col-l ">
 								<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Classic Trench Coat
@@ -731,6 +746,10 @@ body {
 									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="images/icons/icon-heart-02.png" alt="ICON">
 								</a>
 							</div>
+							<div class="flex-c-m stext-106 cl6 size-104 bor4 pointer hov-btn4 trans-04 m-r-8 m-tb-4">
+						            <i class="icon-close-filter cl2 m-r-6 fs-15 trans-04 zmdi zmdi-close dis-none"></i>
+                                    <a href="product-detail.php" style="text-decoration: none; padding:8px; ">€39.55/Day</a> 
+					            </div>
 						</div>
 					</div>
 				</div>
@@ -746,7 +765,7 @@ body {
 							</a>
 						</div>
 
-						<div class="block2-txt flex-w flex-t p-t-14">
+						<div class="block2-txt flex-w flex-t p-t-14" style="justify-content: center;">
 							<div class="block2-txt-child1 flex-col-l ">
 								<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Front Pocket Jumper
@@ -763,6 +782,10 @@ body {
 									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="images/icons/icon-heart-02.png" alt="ICON">
 								</a>
 							</div>
+							<div class="flex-c-m stext-106 cl6 size-104 bor4 pointer hov-btn4 trans-04 m-r-8 m-tb-4">
+						            <i class="icon-close-filter cl2 m-r-6 fs-15 trans-04 zmdi zmdi-close dis-none"></i>
+                                    <a href="product-detail.php" style="text-decoration: none; padding:8px; ">€39.55/Day</a> 
+					            </div>
 						</div>
 					</div>
 				</div>
@@ -778,7 +801,7 @@ body {
 							</a>
 						</div>
 
-						<div class="block2-txt flex-w flex-t p-t-14">
+						<div class="block2-txt flex-w flex-t p-t-14" style="justify-content: center;">
 							<div class="block2-txt-child1 flex-col-l ">
 								<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Vintage Inspired Classic 
@@ -795,6 +818,10 @@ body {
 									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="images/icons/icon-heart-02.png" alt="ICON">
 								</a>
 							</div>
+							<div class="flex-c-m stext-106 cl6 size-104 bor4 pointer hov-btn4 trans-04 m-r-8 m-tb-4">
+						            <i class="icon-close-filter cl2 m-r-6 fs-15 trans-04 zmdi zmdi-close dis-none"></i>
+                                    <a href="product-detail.php" style="text-decoration: none; padding:8px; ">€39.55/Day</a> 
+					            </div>
 						</div>
 					</div>
 				</div>
@@ -810,7 +837,7 @@ body {
 							</a>
 						</div>
 
-						<div class="block2-txt flex-w flex-t p-t-14">
+						<div class="block2-txt flex-w flex-t p-t-14" style="justify-content: center;">
 							<div class="block2-txt-child1 flex-col-l ">
 								<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Shirt in Stretch Cotton
@@ -827,6 +854,10 @@ body {
 									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="images/icons/icon-heart-02.png" alt="ICON">
 								</a>
 							</div>
+							<div class="flex-c-m stext-106 cl6 size-104 bor4 pointer hov-btn4 trans-04 m-r-8 m-tb-4">
+						            <i class="icon-close-filter cl2 m-r-6 fs-15 trans-04 zmdi zmdi-close dis-none"></i>
+                                    <a href="product-detail.php" style="text-decoration: none; padding:8px; ">€39.55/Day</a> 
+					            </div>
 						</div>
 					</div>
 				</div>
@@ -842,7 +873,7 @@ body {
 							</a>
 						</div>
 
-						<div class="block2-txt flex-w flex-t p-t-14">
+						<div class="block2-txt flex-w flex-t p-t-14" style="justify-content: center;">
 							<div class="block2-txt-child1 flex-col-l ">
 								<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Pieces Metallic Printed
@@ -859,6 +890,10 @@ body {
 									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="images/icons/icon-heart-02.png" alt="ICON">
 								</a>
 							</div>
+							<div class="flex-c-m stext-106 cl6 size-104 bor4 pointer hov-btn4 trans-04 m-r-8 m-tb-4">
+						            <i class="icon-close-filter cl2 m-r-6 fs-15 trans-04 zmdi zmdi-close dis-none"></i>
+                                    <a href="product-detail.php" style="text-decoration: none; padding:8px; ">€39.55/Day</a> 
+					            </div>
 						</div>
 					</div>
 				</div>
@@ -874,7 +909,7 @@ body {
 							</a>
 						</div>
 
-						<div class="block2-txt flex-w flex-t p-t-14">
+						<div class="block2-txt flex-w flex-t p-t-14" style="justify-content: center;">
 							<div class="block2-txt-child1 flex-col-l ">
 								<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Converse All Star Hi Plimsolls
@@ -891,6 +926,10 @@ body {
 									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="images/icons/icon-heart-02.png" alt="ICON">
 								</a>
 							</div>
+							<div class="flex-c-m stext-106 cl6 size-104 bor4 pointer hov-btn4 trans-04 m-r-8 m-tb-4">
+						            <i class="icon-close-filter cl2 m-r-6 fs-15 trans-04 zmdi zmdi-close dis-none"></i>
+                                    <a href="product-detail.php" style="text-decoration: none; padding:8px; ">€39.55/Day</a> 
+					            </div>
 						</div>
 					</div>
 				</div>
@@ -906,7 +945,7 @@ body {
 							</a>
 						</div>
 
-						<div class="block2-txt flex-w flex-t p-t-14">
+						<div class="block2-txt flex-w flex-t p-t-14" style="justify-content: center;">
 							<div class="block2-txt-child1 flex-col-l ">
 								<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Femme T-Shirt In Stripe
@@ -923,6 +962,10 @@ body {
 									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="images/icons/icon-heart-02.png" alt="ICON">
 								</a>
 							</div>
+							<div class="flex-c-m stext-106 cl6 size-104 bor4 pointer hov-btn4 trans-04 m-r-8 m-tb-4">
+						            <i class="icon-close-filter cl2 m-r-6 fs-15 trans-04 zmdi zmdi-close dis-none"></i>
+                                    <a href="product-detail.php" style="text-decoration: none; padding:8px; ">€39.55/Day</a> 
+					            </div>
 						</div>
 					</div>
 				</div>
@@ -938,7 +981,7 @@ body {
 							</a>
 						</div>
 
-						<div class="block2-txt flex-w flex-t p-t-14">
+						<div class="block2-txt flex-w flex-t p-t-14" style="justify-content: center;">
 							<div class="block2-txt-child1 flex-col-l ">
 								<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Herschel supply 
@@ -955,6 +998,10 @@ body {
 									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="images/icons/icon-heart-02.png" alt="ICON">
 								</a>
 							</div>
+							<div class="flex-c-m stext-106 cl6 size-104 bor4 pointer hov-btn4 trans-04 m-r-8 m-tb-4">
+						            <i class="icon-close-filter cl2 m-r-6 fs-15 trans-04 zmdi zmdi-close dis-none"></i>
+                                    <a href="product-detail.php" style="text-decoration: none; padding:8px; ">€39.55/Day</a> 
+					            </div>
 						</div>
 					</div>
 				</div>
@@ -970,7 +1017,7 @@ body {
 							</a>
 						</div>
 
-						<div class="block2-txt flex-w flex-t p-t-14">
+						<div class="block2-txt flex-w flex-t p-t-14" style="justify-content: center;">
 							<div class="block2-txt-child1 flex-col-l ">
 								<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Herschel supply
@@ -987,6 +1034,10 @@ body {
 									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="images/icons/icon-heart-02.png" alt="ICON">
 								</a>
 							</div>
+							<div class="flex-c-m stext-106 cl6 size-104 bor4 pointer hov-btn4 trans-04 m-r-8 m-tb-4">
+						            <i class="icon-close-filter cl2 m-r-6 fs-15 trans-04 zmdi zmdi-close dis-none"></i>
+                                    <a href="product-detail.php" style="text-decoration: none; padding:8px; ">€39.55/Day</a> 
+					            </div>
 						</div>
 					</div>
 				</div>
@@ -1002,7 +1053,7 @@ body {
 							</a>
 						</div>
 
-						<div class="block2-txt flex-w flex-t p-t-14">
+						<div class="block2-txt flex-w flex-t p-t-14" style="justify-content: center;">
 							<div class="block2-txt-child1 flex-col-l ">
 								<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									T-Shirt with Sleeve
@@ -1019,6 +1070,10 @@ body {
 									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="images/icons/icon-heart-02.png" alt="ICON">
 								</a>
 							</div>
+							<div class="flex-c-m stext-106 cl6 size-104 bor4 pointer hov-btn4 trans-04 m-r-8 m-tb-4">
+						            <i class="icon-close-filter cl2 m-r-6 fs-15 trans-04 zmdi zmdi-close dis-none"></i>
+                                    <a href="product-detail.php" style="text-decoration: none; padding:8px; ">€39.55/Day</a> 
+					            </div>
 						</div>
 					</div>
 				</div>
@@ -1034,7 +1089,7 @@ body {
 							</a>
 						</div>
 
-						<div class="block2-txt flex-w flex-t p-t-14">
+						<div class="block2-txt flex-w flex-t p-t-14" style="justify-content: center;">
 							<div class="block2-txt-child1 flex-col-l ">
 								<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Pretty Little Thing
@@ -1051,6 +1106,10 @@ body {
 									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="images/icons/icon-heart-02.png" alt="ICON">
 								</a>
 							</div>
+							<div class="flex-c-m stext-106 cl6 size-104 bor4 pointer hov-btn4 trans-04 m-r-8 m-tb-4">
+						            <i class="icon-close-filter cl2 m-r-6 fs-15 trans-04 zmdi zmdi-close dis-none"></i>
+                                    <a href="product-detail.php" style="text-decoration: none; padding:8px; ">€39.55/Day</a> 
+					            </div>
 						</div>
 					</div>
 				</div>
@@ -1066,7 +1125,7 @@ body {
 							</a>
 						</div>
 
-						<div class="block2-txt flex-w flex-t p-t-14">
+						<div class="block2-txt flex-w flex-t p-t-14" style="justify-content: center;">
 							<div class="block2-txt-child1 flex-col-l ">
 								<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Mini Silver Mesh Watch
@@ -1083,6 +1142,10 @@ body {
 									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="images/icons/icon-heart-02.png" alt="ICON">
 								</a>
 							</div>
+							<div class="flex-c-m stext-106 cl6 size-104 bor4 pointer hov-btn4 trans-04 m-r-8 m-tb-4">
+						            <i class="icon-close-filter cl2 m-r-6 fs-15 trans-04 zmdi zmdi-close dis-none"></i>
+                                    <a href="product-detail.php" style="text-decoration: none; padding:8px; ">€39.55/Day</a> 
+					            </div>
 						</div>
 					</div>
 				</div>
@@ -1098,7 +1161,7 @@ body {
 							</a>
 						</div>
 
-						<div class="block2-txt flex-w flex-t p-t-14">
+						<div class="block2-txt flex-w flex-t p-t-14" style="justify-content: center;">
 							<div class="block2-txt-child1 flex-col-l ">
 								<a href="product-detail.php" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
 									Square Neck Back
@@ -1115,6 +1178,10 @@ body {
 									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="images/icons/icon-heart-02.png" alt="ICON">
 								</a>
 							</div>
+							<div class="flex-c-m stext-106 cl6 size-104 bor4 pointer hov-btn4 trans-04 m-r-8 m-tb-4">
+						            <i class="icon-close-filter cl2 m-r-6 fs-15 trans-04 zmdi zmdi-close dis-none"></i>
+                                    <a href="product-detail.php" style="text-decoration: none; padding:8px; ">€39.55/Day</a> 
+					            </div>
 						</div>
 					</div>
 				</div>

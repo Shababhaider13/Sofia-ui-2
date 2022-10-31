@@ -171,6 +171,7 @@ a div {
     <!-- header end -->
 
 
+
     <div id="fav1">
 
         <div  class="img-wish" style="margin: 6px;">
@@ -178,13 +179,13 @@ a div {
 
         <!-- <a href="product-detail.php"> -->
           <div class="card" style="width: 100%; border:none;">
-                                <img class="img-fluid" alt="100%x280" src="product1.jpg" style="width: 100%;">
+                                <img class="img-fluid" alt="100%x280" src="product1.jpg" style="width: 100%; height:130px;">
                               
                                      <div class="dropdown-container" tabindex="-1"  style="position: absolute; left:85%; top:2%">
                                        <div class="three-dots"></div>
                                        <div class="dropdown">
                                          <a href="editproduct.php"><div>Edit</div></a>
-                                         <a href="#"><div>Pause </div></a>
+                                         <a href="#" data-toggle="modal" data-target="#exampleModal"><div>Pause</div></a>
                                          <a href="#"  data-toggle="modal" data-target="#exampleModalCenter"><div>Delete</div></a>
                                        </div>
                                      </div>
@@ -223,14 +224,14 @@ a div {
 <div class="img-wish" style="margin: 6px;">
 
 <div class="card" style="width: 100%; border:none;">
-                            <img class="img-fluid" alt="100%x280" src="product3.jpg" style="width: 100%;">
+                            <img class="img-fluid" alt="100%x280" src="product3.jpg" style="width: 100%; height:130px;">
                             
                                                           
                             <div class="dropdown-container" tabindex="-1"  style="position: absolute; left:85%; top:2%">
                                        <div class="three-dots"></div>
                                        <div class="dropdown">
                                          <a href="editproduct.php"><div>Edit</div></a>
-                                         <a href="#"><div>Pause</div></a>
+                                         <a href="#" data-toggle="modal" data-target="#exampleModal"><div>Pause</div></a>
                                          <a href="#"  data-toggle="modal" data-target="#exampleModalCenter"><div>Delete</div></a>
                                        </div>
                                      </div>
@@ -263,14 +264,14 @@ a div {
 </div>
 <div class="img-wish" style="margin: 6px;">
                <div class="card" style="width: 100%; border:none;">
-                            <img class="img-fluid" alt="100%x130px" src="product4.jpg" style="width: 100%;">
+                            <img class="img-fluid" alt="100%x130px" src="product4.jpg" style="width: 100%; height:130px;">
                                                          
                                      <div class="dropdown-container" tabindex="-1"  style="position: absolute; left:85%; top:2%">
                                        <div class="three-dots"></div>
                                        <div class="dropdown">
                                          <a href="editproduct.php"><div>Edit</div></a>
-                                         <a href="#"><div>Pause</div></a>
-                                         <a href="#"  data-toggle="modal" data-target="#exampleModalCenter"><div>Delete</div></a>
+                                         <a href="#" data-toggle="modal" data-target="#exampleModal"><div>Pause</div></a>
+                                         <a href="#" data-toggle="modal" data-target="#exampleModalCenter"><div>Delete</div></a>
                                        </div>
                                      </div>
 
@@ -300,6 +301,37 @@ a div {
 
 
 </div>
+
+<!-- Modal Date -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Pick Date</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <input type="text" name="daterange" value="01/01/2018 - 01/15/2018" / style="width: 100%;">
+        <script>
+        $(function() {
+          $('input[name="daterange"]').daterangepicker({
+            opens: 'left'
+          }, function(start, end, label) {
+            console.log("A new date selection was made: " + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD'));
+          });
+        });
+        </script>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" style="background-color: white; color:#888; margin-left:10px"> Submite</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <!-- Modal Delete -->
 <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">

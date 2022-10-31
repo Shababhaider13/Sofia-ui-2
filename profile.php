@@ -65,7 +65,7 @@
     <!-- header start -->
     <div id="profile_header">
         <div class="iconprofileheader">
-        <i class=" fa-solid fa-angle-left" onclick="history.go(-1)"></i>
+        <i class="" onclick="history.go(-1)"></i>
         </div>
         <div id="profile_heading">
             <div id="profhead">Profile</div>

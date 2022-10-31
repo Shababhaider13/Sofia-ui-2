@@ -163,12 +163,33 @@
             </a>
         </div>
         <div id="accept" class="bigfont">
-            <a href="myproducts.php" style="text-decoration: none; color:white;">
-            <div id="accept1" style="    padding: 10px 20px;">Accept</div>
+            <a  data-toggle="modal" data-target="#exampleModalCenter" href="myproducts.php" style="text-decoration: none; color:white;">
+            <div style="padding: 10px 20px;">Accept</div>
             </a>
         </div>
     </div>
     <!-- Delivery INFO END -->
+
+<!-- Modal Replay -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-header">
+<h5 class="modal-title" id="exampleModalLongTitle">Write a Message</h5>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+  <span aria-hidden="true">&times;</span>
+</button>
+</div>
+<div class="modal-body">
+<textarea class="size-110 bor8 stext-102 cl2 p-lr-20 p-tb-10" id="review" name="review" style="height: 70px; border: 1px solid #e6e6e6; margin-top:10px; width:100%;"></textarea>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+<button id="accept1" type="button" class="btn btn-primary" style="background-color: #fff; color:#888; margin-left:10px"> Submit</button>
+</div>
+</div>
+</div>
+</div>
 
     <!-- footer start -->
     <?php include 'footer.php' ?>
@@ -192,7 +213,7 @@
 },
 )
 setTimeout(function redirectother(){
-  location.replace("http://localhost/sofia/")
+  location.replace("http://localhost/sofia-ui-master/rented_product.php")
 },2000)
     }
 

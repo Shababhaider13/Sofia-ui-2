@@ -311,13 +311,13 @@
             <div style="width:90%;margin: auto;">
                 <div class="input-container">
                     <!-- <div style="width:100%;display: flex;justify-content:center;align-items:center;height: 100%;background: #0275d8;"><i class="fa fa-user icon"></i></div> -->
-                    <input type="text" class="typecol" placeholder="Email Address" height="100%" autocomplete="off" style="margin-top:0px;margin-bottom:0px">
+                    <input type="text" class="typecol" placeholder="Email Address" height="100%"  autocomplete="off" style="margin-top:0px;margin-bottom:0px; width:100%;">
 
                 </div>
 
                 <div class="input-container1">
                     <!-- <div style="width:100%;display: flex;justify-content:center;align-items:center;height: 100%;background: #0275d8;"><i class="fa fa-key icon"></i></div> -->
-                    <input type="text" class="typecol" placeholder="Password" height="100%" autocomplete="off" style="margin-top:0px;margin-bottom:0px">
+                    <input type="text" class="typecol" placeholder="Password" height="100%"  autocomplete="off" style="margin-top:0px;margin-bottom:0px; width:100%;">
                     <div style="width:100%;display: flex;justify-content:center;align-items:center;height: 100%;"><i class="fa-solid fa-eye"></i></div>
 
                 </div>

@@ -111,6 +111,15 @@
   background-color: rgba(0, 0, 0, 0.1);
 }
 .button3 {font-size: 16px;}
+
+#display-image{
+  width: 100%;
+  height: 120px;
+  border: 1px solid #e6e6e6;
+  background-position: center;
+  background-size: cover;
+}
+
     </style>
 </head>
 
@@ -231,7 +240,7 @@
 
                               <div class="card" style="width: 100%; border:none;">
                                 <img class="img-fluid" alt="100%x280" src="product4.jpg" style="width: 100%;">
-                                <i data-toggle="modal" data-target="#exampleModalCenter" class="fa-regular fa-message" style="position:absolute; left:85%; top:3%; color:#fff;"></i>
+                                <!-- <i data-toggle="modal" data-target="#exampleModalCenter" class="fa-regular fa-message" style="position:absolute; left:85%; top:3%; color:#fff;"></i> -->
                                 <div class="card-body" style="padding: 8px;">
                                     
                                   <span class="fa fa-heart" style="float: right;"></span>
@@ -266,7 +275,7 @@
 
                              <div class="card" style="width: 100%; border:none;">
                                 <img class="img-fluid" alt="100%x280" src="product3.jpg" style="width: 100%;">
-                                <i data-toggle="modal" data-target="#exampleModalCenter" class="fa-regular fa-message" style="position:absolute; left:85%; top:3%; color:#fff;"></i>
+                                <!-- <i data-toggle="modal" data-target="#exampleModalCenter" class="fa-regular fa-message" style="position:absolute; left:85%; top:3%; color:#fff;"></i> -->
                                 <div class="card-body" style="padding: 8px;">
                                     
                                   <span class="fa fa-heart" style="float: right;"></span>
@@ -313,7 +322,11 @@
   <i class="fa-solid fa-star favcol"></i>
   <i class="fa-solid fa-star favcol"></i>
 </div>
-<textarea class="size-110 bor8 stext-102 cl2 p-lr-20 p-tb-10" id="review" name="review" style="height: 70px; border: 1px solid #e6e6e6;"></textarea>
+
+<input type="file" id="image-input" accept="image/jpeg, image/png, image/jpg" style="width: 100%; padding:5px;">
+<div id="display-image"></div>
+
+<textarea class="size-110 bor8 stext-102 cl2 p-lr-20 p-tb-10" id="review" name="review" style="height: 70px; border: 1px solid #e6e6e6; margin-top:10px; width:100%;"></textarea>
 </div>
 <div class="modal-footer">
 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -345,6 +358,19 @@
             });
         })
     </script>
+
+  <script>
+    const image_input = document.querySelector("#image-input");
+image_input.addEventListener("change", function() {
+  const reader = new FileReader();
+  reader.addEventListener("load", () => {
+    const uploaded_image = reader.result;
+    document.querySelector("#display-image").style.backgroundImage = `url(${uploaded_image})`;
+  });
+  reader.readAsDataURL(this.files[0]);
+});
+  </script>
+
 
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
