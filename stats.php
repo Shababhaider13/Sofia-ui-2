@@ -24,10 +24,6 @@
         <div id="profile_heading">
             <div id="profheadrev">STATS</div>
         </div>
-        <div class="iconprofileheader">
-        <a href="update.php" style="color:black"><i class="fa-solid fa-gear fa-2x"></i></a>
-        
-        </div>
     </div>
     <!-- header end -->
 
