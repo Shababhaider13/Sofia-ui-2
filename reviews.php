@@ -37,10 +37,7 @@ white-space: normal;
         <div id="profile_heading">
             <div id="profhead">Reviews</div>
         </div>
-        <div class="iconprofileheader">
-        <a href="update.php" style="color:black"><i class="fa-solid fa-gear fa-2x"></i></a>
-        
-        </div>
+
     </div>
     <!-- header end -->
 
