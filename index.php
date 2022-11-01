@@ -976,21 +976,36 @@
     </div>
     <!-- featured brand end -->
 
-    <!-- featured brand carousel start -->
+    <!-- featured brand carousel start
 <div class="main">
     <div class="slider slide-show">
-        <div class="block2" style="width: 120px;">
-            <div class="block2-pic hov-img0" style="height: 120px; width: 120px;">
+        <div class="block2" ">
+            <div class="block2-pic hov-img0">
                 <a href="product-detail.php">
                     <img src="brandslogo.png" alt="IMG-PRODUCT">
                 </a>
             </div>
         </div>
+        <div class="block2" ">
+            <div class="block2-pic hov-img0">
+                <a href="product-detail.php">
+                    <img src="brandslogo.png" alt="IMG-PRODUCT">
+                </a>
+            </div>
+        </div>
+        <div class="block2" ">
+            <div class="block2-pic hov-img0">
+                <a href="product-detail.php">
+                    <img src="brandslogo.png" alt="IMG-PRODUCT">
+                </a>
+            </div>
+        </div>
+        
 
     </div>
-</div>
+</div> -->
 
-    <!-- <div class="swiper mySwiper1 marswip htlogo">
+    <div class="swiper mySwiper1 marswip htlogo">
         <div class="swiper-wrapper  bgnone">
             <div class="swiper-slide bgnone">
                 
@@ -1061,7 +1076,7 @@
             </div>
         </div>
         <div class="swiper-pagination"></div>
-    </div> -->
+    </div>
 
     <!-- featured brand carousel end -->
 
