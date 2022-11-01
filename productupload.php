@@ -382,8 +382,6 @@ p {
                                         </div>
                                         <div class="upload__img-wrap"></div>
 </div>
-
-
                                     </div>
                                     <input type="button" name="next" class="btn next action-button btnnext" value="Continue" />
                                 </fieldset>
@@ -399,7 +397,7 @@ p {
   </div>
   <input type="text" placeholder="Original Rental Price" class="form-control" aria-label="Amount (to the nearest dollar)" style="width: 70%;">
   <div class="input-group-append">
-    <span class="input-group-text">.00</span>
+    <span class="input-group-text" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-info-circle" style="color:#b6b6b6;"></i></span>
   </div>
 </div>
 <div class="input-group mb-3">
@@ -408,7 +406,7 @@ p {
   </div>
   <input type="text" placeholder="Rental Price for 1 Day" class="form-control" aria-label="Amount (to the nearest dollar)" style="width: 70%;">
   <div class="input-group-append">
-    <span class="input-group-text">.00</span>
+    <span class="input-group-text" data-toggle="modal" data-target="#exampleModalCenter"> <i class="fa fa-info-circle" style="color:#b6b6b6;"></i> </span>
   </div>
 </div>
 <div class="input-group mb-3">
@@ -417,10 +415,31 @@ p {
   </div>
   <input type="text" placeholder="Rental Price for 7 Day" class="form-control" aria-label="Amount (to the nearest dollar)" style="width: 70%;">
   <div class="input-group-append">
-    <span class="input-group-text">.00</span>
+    <span class="input-group-text" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa fa-info-circle" style="color:#b6b6b6;"></i></span>
   </div>
 </div>
 
+
+<!-- Modal Delete -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Price Information</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet ante placerat, 
+      scelerisque diam vel, vestibulum velit
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
                                         <!-- <input type="text" name="phno_2" placeholder="RRP" /> -->
                                         <!-- <input type="text" name="lname" placeholder="Year Of Production" /> -->

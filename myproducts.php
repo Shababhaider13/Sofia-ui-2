@@ -179,7 +179,7 @@ a div {
 
         <!-- <a href="product-detail.php"> -->
           <div class="card" style="width: 100%; border:none;">
-                                <img class="img-fluid" alt="100%x280" src="product1.jpg" style="width: 100%; height:130px;">
+                                <img class="img-fluid" alt="100%x280px" src="product1.jpg" style="width: 100%;">
                               
                                      <div class="dropdown-container" tabindex="-1"  style="position: absolute; left:85%; top:2%">
                                        <div class="three-dots"></div>
@@ -224,7 +224,7 @@ a div {
 <div class="img-wish" style="margin: 6px;">
 
 <div class="card" style="width: 100%; border:none;">
-                            <img class="img-fluid" alt="100%x280" src="product3.jpg" style="width: 100%; height:130px;">
+                            <img class="img-fluid" alt="100%x280" src="product3.jpg" style="width: 100%;">
                             
                                                           
                             <div class="dropdown-container" tabindex="-1"  style="position: absolute; left:85%; top:2%">
@@ -264,7 +264,7 @@ a div {
 </div>
 <div class="img-wish" style="margin: 6px;">
                <div class="card" style="width: 100%; border:none;">
-                            <img class="img-fluid" alt="100%x130px" src="product4.jpg" style="width: 100%; height:130px;">
+                            <img class="img-fluid" alt="100%x300px" src="product4.jpg" style="width: 100%;">
                                                          
                                      <div class="dropdown-container" tabindex="-1"  style="position: absolute; left:85%; top:2%">
                                        <div class="three-dots"></div>

@@ -45,19 +45,19 @@
         </div> -->
         <!-- fields start -->
 
-        <input type="text" class="typecol" placeholder="First Name">
-        <input type="text" class="typecol" placeholder="Last Name">
-        <input type="email" class="typecol" placeholder="Email Address">
+        <input type="text" class="typecol" placeholder="First Name" style="width: 100%;">
+        <input type="text" class="typecol" placeholder="Last Name" style="width: 100%;">
+        <input type="email" class="typecol" placeholder="Email Address" style="width: 100%;">
         <div class="input-container1">
             <!-- <div style="width:100%;display: flex;justify-content:center;align-items:center;height: 100%;background: #0275d8;"><i class="fa fa-key icon"></i></div> -->
-            <input type="text" class="typecol" placeholder="Password" height="100%" autocomplete="off" style="margin-top:0px;margin-bottom:0px">
-            <div style="width:100%;display: flex;justify-content:center;align-items:center;height: 100%;"><i class="fa-solid fa-eye"></i></div>
+            <input type="text" class="typecol" placeholder="Password" height="100%" autocomplete="off" style="margin-top:0px;margin-bottom:0px; width: 100%;">
+            <div style="width:100%;display:flex;justify-content:center;align-items:center;height: 100%;"><i class="fa-solid fa-eye"></i></div>
 
         </div>
         <div class="input-container1">
             <!-- <div style="width:100%;display: flex;justify-content:center;align-items:center;height: 100%;background: #0275d8;"><i class="fa fa-key icon"></i></div> -->
-            <input type="text" class="typecol" placeholder="Confirm Password" height="100%" autocomplete="off" style="margin-top:0px;margin-bottom:0px">
-            <div style="width:100%;display: flex;justify-content:center;align-items:center;height: 100%;"><i class="fa-solid fa-eye"></i></div>
+            <input type="text" class="typecol" placeholder="Confirm Password" height="100%" autocomplete="off" style="margin-top:0px;margin-bottom:0px; width: 100%;">
+            <div style="width:100%;display:flex;justify-content:center;align-items:center;height: 100%;"><i class="fa-solid fa-eye"></i></div>
 
         </div>
 
